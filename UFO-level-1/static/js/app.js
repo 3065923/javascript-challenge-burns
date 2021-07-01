@@ -69,6 +69,7 @@ function runEnter() {
 
   // Select the input element and get the raw HTML node
   var inputElement = d3.select("#datetime");
+  console.log(inputElement);
 
   // Get the value property of the input element
   var inputValue = inputElement.property("value");
